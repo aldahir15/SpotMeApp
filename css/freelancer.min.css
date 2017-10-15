@@ -20,3 +20,13 @@
 #mainNav .navbar-nav>li.nav-item>a.nav-link.active{
   color: black;
 }
+
+#about .ml-auto {
+ width: 100%;
+ max-width: 100%;
+}
+
+#about .row {
+  text-align: -webkit-center;
+  display: block;
+}
