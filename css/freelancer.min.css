@@ -13,6 +13,14 @@
   height: 550px; 
 }
 
+.mini-logo-img {
+  width: 20%;
+}
+
+.logo-img {
+  width: 90%;
+}
+
 .img-fluid{
   height: 252.766px;
 }
@@ -22,11 +30,12 @@
 }
 
 .masthead-image img {
-  height: 100%;
+  height: 120%;
 }
 
 .masthead .intro-text{
   padding-top: 10%;
+  width: 50%;
 }
 
 #mainNav .navbar-nav>li.nav-item>a.nav-link.active{
@@ -81,4 +90,9 @@
   cursor: pointer;
   background-color: white;
   color: #243F59;
+}
+
+.masthead {
+  padding-top: 150px !important;
+  padding-bottom: 120px !important;
 }
