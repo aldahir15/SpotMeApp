@@ -98,5 +98,5 @@
 }
 
 .masthead .container {
-  justify-content: space-evenly;
+  justify-content: space-evenly !important;
 }
