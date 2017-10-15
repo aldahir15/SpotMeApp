@@ -97,6 +97,6 @@
   padding-bottom: 120px !important;
 }
 
-.masthead-image {
-  padding-left: 10%;
+.masthead .container {
+  justify-content: space-evenly;
 }
