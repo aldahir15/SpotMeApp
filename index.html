@@ -384,8 +384,9 @@
                 <div class="modal-body">
                   <h2>GraphQL</h2>
                   <img class="img-fluid img-centered" src="img/project/GraphQL.png" alt="">
-                  <p>Use this area of the page to describe your project. The icon above is part of a free icon set by
-                    <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
+                  <p>
+                    To serve user data to the front end application, we wrote a GraphQL server built on ruby to act as a data layer over our rails backend, as an alternative to a more traditional RESTful API.  We made this design choice because we knew that we were going to be building primarily in a native mobile environment where both efficiency in data fetching and flexibility in UI design are at a premium.  Instead of having many rigid API endpoints that serve a fixed set of data, GraphQL allows for a single flexible endpoint with a powerful querying language accessible to client applications, effectively eliminating problems of over fetching or under fetching of data.  This also allowed for uninhibited iteration of the front end without delay from any prerequisite modification of the backend, greatly increasing development speed of the application.  The use GraphQL on the back end allowed us have a more performant and extensible application.
+                  </p>
                   <button class="btn btn-success" type="button" data-dismiss="modal">
                     <i class="fa fa-times"></i>
                     Close</button>
@@ -410,8 +411,9 @@
                 <div class="modal-body">
                   <h2>Expo</h2>
                   <img class="img-fluid img-centered" src="img/project/Expo.png" alt="">
-                  <p>Use this area of the page to describe your project. The icon above is part of a free icon set by
-                    <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
+                  <p>
+                      We used Expo Client as a development platform to build our mobile application.  This allow us to develop for both native iOS applications as well as Android mobile application at the same time as well as provided for easier deployment.
+                  </p>
                   <button class="btn btn-success" type="button" data-dismiss="modal">
                     <i class="fa fa-times"></i>
                     Close</button>
@@ -436,8 +438,9 @@
                 <div class="modal-body">
                   <h2>Apollo</h2>
                   <img class="img-fluid img-centered" src="img/project/Apollo.png" alt="">
-                  <p>Use this area of the page to describe your project. The icon above is part of a free icon set by
-                    <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
+                  <p>
+                    Our team used Apollo Client to interact with our GraphQL endpoint from our React Native mobile application.  Apollo provides an abstracted network interface layer built on our front end to handle our application’s network request and response cycle.  We choose to use Apollo because of the numerous optimizations and features Apollo utilizes, including data caching, subscriptions, and higher order UI components that are connected to the network interface.  Our implementation of Apollo allowed us to take full advantage of the benefits of the GraphQL specification and sped up our development process.
+                  </p>
                   <button class="btn btn-success" type="button" data-dismiss="modal">
                     <i class="fa fa-times"></i>
                     Close</button>
@@ -462,8 +465,9 @@
                 <div class="modal-body">
                   <h2>PostgreSQL</h2>
                   <img class="img-fluid img-centered" src="img/project/PostgreSQL.png" alt="">
-                  <p>Use this area of the page to describe your project. The icon above is part of a free icon set by
-                    <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
+                  <p>
+                      Postgre is the relational database management system our team used to provide end users persisted data.  PostgreSQL is a robust and greatly optimized technology that allows for highly relational data and database level protections against corrupted data.  PostgreSQL was chosen by our team because it has an extensive track record as an extremely effective database technology as well as being well integrated with heroku, our preferred hosting provider for our back end application.
+                  </p>
                   <button class="btn btn-success" type="button" data-dismiss="modal">
                     <i class="fa fa-times"></i>
                     Close</button>
