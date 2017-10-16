@@ -346,6 +346,11 @@ form .row:first-child .floating-label-form-group {
 #features img {
   height: 100px !important;
 }
+
+.gif-row {
+  display: flex;
+  justify-content: space-around;
+}
 /* Footer */
 footer {
   color: white; }
