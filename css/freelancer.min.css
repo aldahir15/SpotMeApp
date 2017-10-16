@@ -119,4 +119,25 @@
 
 #features {
   background-color: white;
+  color: black;
+}
+
+#features h2 {
+  padding-bottom: 5%;
+}
+
+.gif-row {
+  justify-content: space-between !important;
+}
+
+.gif-container:hover {
+  /* display: none; */
+}
+
+#features .img-fluid{
+  width: 224px;
+}
+
+#features section {
+  padding: 0;
 }
