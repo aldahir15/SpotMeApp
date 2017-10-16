@@ -63,6 +63,7 @@
 
 #contact {
   text-align: center;
+  background-color: #beccda;
 }
 
 #contact .row {
@@ -95,8 +96,14 @@
 .masthead {
   padding-top: 150px !important;
   padding-bottom: 120px !important;
+  color: #383636 !important;
+  background-color: #beccda !important;
 }
 
 /* .masthead .container {
   justify-content: space-evenly !important;
 } */
+
+#features {
+  background-color: white;
+}
