@@ -141,3 +141,11 @@
 #features section {
   padding: 0;
 }
+
+#features .caption {
+  background-color: #243F59 !important;
+}
+
+#features .caption:hover {
+  opacity: 0.8 !important;
+}
