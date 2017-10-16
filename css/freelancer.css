@@ -333,6 +333,20 @@ header.masthead {
 form .row:first-child .floating-label-form-group {
   border-top: 1px solid #eeeeee; }
 
+/* Features */
+
+.animated_gif_frame {
+
+}
+
+.gif-container {
+  margin: 0 auto;
+}
+
+#features img {
+  height: 100px !important;
+}
+/* Footer */
 footer {
   color: white; }
   footer h3 {
