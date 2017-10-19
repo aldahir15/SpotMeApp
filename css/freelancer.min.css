@@ -76,7 +76,7 @@
 
 #contact {
   text-align: center;
-  background-color: #beccda;
+  background-color: white;
 }
 
 #contact .row {
@@ -107,7 +107,7 @@
 }
 
 .masthead {
-  padding-top: 150px !important;
+  padding-top: 120px !important;
   padding-bottom: 120px !important;
   color: #383636 !important;
   background-color: #beccda !important;
@@ -148,4 +148,13 @@
 
 #features .caption:hover {
   opacity: 0.8 !important;
+}
+
+#demo {
+  color: black !important;
+  text-align: -webkit-center;
+}
+
+#demo h2 {
+  padding-bottom: 5%;
 }
